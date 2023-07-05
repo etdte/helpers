@@ -1,0 +1,24 @@
+{
+  "name": "etdte/helpers-laravel",
+  "description": "Set of helpers",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^8.2"
+  },
+  "autoload": {
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "allow-plugins": {
+      "php-http/discovery": false
+    }
+  }
+}
